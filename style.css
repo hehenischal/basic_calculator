@@ -1,5 +1,5 @@
 *{
-    background-color: antiquewhite;
+    background-color: black
 }
 
 .outerdiv{
@@ -8,18 +8,50 @@
     display: flex;
     justify-content: center;
 }
+.cover {
+    border: 1px solid red;
+    border-radius: 1% 1%;
+}
+
 .key{
     color: red;
     background-color: antiquewhite;
     margin: 2px;
     padding: 5px;
-    width: 60px;
-    height: 50px;
+    width: 62px;
+    height: 70px;
     font-size: 30px;
     display: inline-flex;
     justify-content: center;
-    border-radius: 30%;
+    align-items: center;
+    border-radius: 25%;
 }
 .key:hover{
-    background-color: aqua;
+    background-color: red;
+    color: antiquewhite;
+}
+.clear {
+    background-color: rgb(214, 7, 7);
+    color: white;
+}
+.clear:hover {
+    color: black;
+    background-color: antiquewhite;
+    border: 5px solid red;
+}
+textarea {
+    color: red;
+    margin: 2px;
+    width: 96%;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+::placeholder {
+    color: red;
+    opacity: .4; /* Firefox */
+    justify-content: center;
+    align-items: center;
 }
